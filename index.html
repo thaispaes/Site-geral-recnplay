@@ -11,7 +11,6 @@
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,43 +36,19 @@
 
 <body>
   <!-- ======= Header ======= -->
-  <section id="topbar" class="topbar d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>Faculdade Senac</span></i>
-      </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-    </div>
-  </section><!-- End Top Bar -->
-
   <header id="header" class="header d-flex align-items-center">
-
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Faculdade Senac<span>.</span></h1>
+        <h1>Faculdade Senac</h1>
       </a>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#Cursos">Home</a></li>
-          <li><a href="#Horario">About</a></li>
-          <li><a href="#Projetos">Services</a></li>
-          <li><a href="#SobreNos">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#Cursos">Home</a></li>
-              <li><a href="#Horario">About</a></li>
-              <li><a href="#Projetos">Services</a></li>
-              <li><a href="#SobreNos">Portfolio</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#Cursos">Cursos</a></li>
+          <li><a href="#Horarios">Horários</a></li>
+          <li><a href="#Projetos">Projetos</a></li>
+          <li><a href="#SobreNos">Sobre Nós</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -81,51 +56,94 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
     </div>
-  </header>
+  </header> 
+  <!-- Fim do header -->
+
+  <section id="hero" class="hero">
+    <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center ">
+          <h2>Bem vindos <span>ao site oficial do Rec N' Play</span></h2>
+          <p>Esse site tem com prioridade mostrar um pouco sobre o que nossa faculdade tem a oferecer
+            além de informar um pouco dos nossos projetos apresentados.</p>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="assets/img/logo-senac-branco.png" class="img-header" alt="" data-aos="zoom-out" data-aos-delay="100" height="250">
+        </div>
+      </div>
+    </div>
+
+   
+    
+  </section>
+
+  <!-- Fim do 2 header -->
 
   <main id="main">
-    <!-- ======= Clients Section ======= -->
+    <!-- ======= VCursos Section ======= -->
     <section id="clients" class="clients">
-      <h1>Cursos</h1>
-      <div class="container" data-aos="zoom-out">
-               <div class="row row-cols-2 row-cols-md-4 g-3 categories-group align-items-stretch">
-                <div class="col d-flex">
-                  <div class="card rounded-3 w-100 ">
-                    <img src="/assets/img/hero-bg-abstract.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-center text-div">
-                      <p class=" mb-0">Motores</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col d-flex">
-                  <div class="card rounded-3 w-100 ">
-                    <img src="/assets/img/hero-bg-abstract.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-center text-div">
-                      <p class=" mb-0">Motores</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col d-flex">
-                  <div class="card rounded-3 w-100 ">
-                    <img src="/assets/img/hero-bg-abstract.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-center text-div">
-                      <p class=" mb-0">Motores</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col d-flex">
-                  <div class="card rounded-3 w-100 ">
-                    <img src="/assets/img/hero-bg-abstract.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-center text-div">
-                      <p class=" mb-0">Motores</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <div class="section-header">
+        <h2>Cursos</h2>
       </div>
+      <div>
+        <div class="container" data-aos="zoom-out">
+          <div class="row row-cols-2 row-cols-md-4 g-3 categories-group align-items-stretch">
+           <div class="col d-flex">
+             <div class="card rounded-3 w-100 ">
+               <img src="/assets/img/imgs-icon/curso-ads.png" class="card-img-top" alt="...">
+               <div class="card-body text-center text-div">
+                 <p class=" mb-0">ADS</p>
+               </div>
+             </div>
+           </div>
+           <div class="col d-flex">
+             <div class="card rounded-3 w-100 ">
+               <img src="/assets/img/imgs-icon/curso-estetica.png" class="card-img-top" alt="...">
+               <div class="card-body text-center text-div">
+                 <p class=" mb-0">Estética</p>
+               </div>
+             </div>
+           </div>
+           <div class="col d-flex">
+             <div class="card rounded-3 w-100 ">
+               <img src="/assets/img/imgs-icon/curso-adm.webp" class="card-img-top" alt="...">
+               <div class="card-body text-center text-div">
+                 <p class=" mb-0">Administração</p>
+               </div>
+             </div>
+           </div>
+           <div class="col d-flex">
+             <div class="card rounded-3 w-100 ">
+               <img src="/assets/img/imgs-icon/curso-gastronomia.jpg" class="card-img-top" alt="...">
+               <div class="card-body text-center text-div">
+                 <p class=" mb-0">Gastronomia</p>
+               </div>
+             </div>
+           </div>
+         </div>
+ </div>
+      </div>
+      
     </section><!-- End Cursos Section -->
 
+    <section>
+      <div class="section-header">
+        <h2>Horários</h2>
+      </div>
+    </section>
+
 </main>
+
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
