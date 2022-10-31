@@ -1763,12 +1763,12 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color:  #769fd6
+  background-color:  #356ab1
   ;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
-  color: #000;
+  color: #fff;
 }
 
 .contact .info-item:last-child {
@@ -1777,7 +1777,7 @@ section {
 
 .contact .info-item i {
   font-size: 20px;
-  color: #000;
+  color: #fff;
   float: left;
   width: 44px;
   height: 44px;
