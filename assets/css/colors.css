@@ -3,10 +3,14 @@
 }
 
 .orange-color{
-    color: #FF725E
+    color: #FF725E !important;
 }
 
 .orange-senac{
-    color:#f19100;
+    color:#f19100 !important;
 
+}
+
+.orange-color-light{
+    color: #ffd699 !important
 }
