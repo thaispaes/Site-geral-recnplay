@@ -1041,11 +1041,11 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #f7f1f1;
+  background: var(--color-primary);
 }
 
 .services .service-item:hover h3 {
-  border-color: #f7f1f1;
+  border-color: var(--color-primary);
 }
 
 /*--------------------------------------------------------------
