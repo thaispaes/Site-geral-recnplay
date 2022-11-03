@@ -1,0 +1,27 @@
+/* .pagination{
+    text-align: center;
+    align-items: center;
+    user-select: none;
+    border-radius: 10px;
+}
+
+.pagination li{
+    display: inline-block !important;
+    margin: 5px !important;
+    box-shadow: 0 5px 25px rgb(1 1 1 /10%);
+}
+
+.current-page{
+    background: #ccc;
+    width: 45px;
+}
+
+.active{
+    background-color: aqua;
+}
+
+.disable{
+    background: #ccc;
+    color: white;
+    border-radius: 10px 0 0 10px;
+} */

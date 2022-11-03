@@ -26,6 +26,7 @@
 
   <!-- CSS's File -->
   <link href="assets/css/colors.css" rel="stylesheet">
+  <link href="assets/css/pagination.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Impact - v1.1.1
@@ -230,10 +231,10 @@
 
         <div class="section-header">
           <h2>Horário</h2>
-          <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+          <p>Verifique os horários de cada um dos projetos da nossa faculdade</p>
         </div>
-
-        <div class="row gx-lg-0 gy-4">
+        <!-- Container horario -->
+        <div class="row gx-lg-0 gy-4 horario-slide active">
           <div class="col-lg-4">
             <div class="info-container d-flex flex-column align-items-center justify-content-center">
               <div class="info-item d-flex">
@@ -262,9 +263,51 @@
             </div>
           </div>
         </div>
+        <!-- End container horario -->
+
+         <!-- Container horario -->
+         <div class="row gx-lg-0 gy-4 horario-slide" style="display: none;" id="horario_2">
+          <div class="col-lg-4">
+            <div class="info-container d-flex flex-column align-items-center justify-content-center">
+              <div class="info-item d-flex">
+                <i class="bi bi-clock flex-shrink-0"></i>
+                <div>
+                  <h4>Open Hours:</h4>
+                  <p>Mon-Sat: 11AM - 23PM</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i> <!-- Mudar icone-->
+                <div>
+                  <h4>Projeto:</h4>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>Local:</h4>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div><!-- End Info Item -->
+            </div>
+          </div>
+        </div>
+        <!-- End container horario -->
 
       </div>
     </section><!-- End Contact Section -->
+
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <div id="prev" onclick="prev()"> < </div>
+      <div id="next" onclick="prev()"> > </div>
+    </div>
+
+
 
     <!-- ======= Projetos Section ======= -->
     <!-- Procurar pela classe services -->
@@ -504,6 +547,9 @@
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
+<script src="assets/js/pagination.js"></script>
+
+
 
 </body>
 
