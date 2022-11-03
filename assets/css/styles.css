@@ -1,0 +1,7 @@
+.footer-text {
+    padding-bottom: 25px;
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+    border-bottom: 4px solid #f5a59b ;
+  }

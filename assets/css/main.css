@@ -21,6 +21,7 @@
   --color-default: #222222;
   --color-primary: #2b5690;
   --color-secondary: #f85a40;
+  --color-orange: #fddfdb;
 }
 
 /* Smooth scroll behavior */
@@ -1007,7 +1008,7 @@ section {
   content: "";
   height: 100%;
   width: 100%;
-  background: #eeeeee;
+  background: var(--color-orange);
   border-radius: 50px;
   z-index: 1;
   top: 10px;
@@ -1023,7 +1024,7 @@ section {
   font-size: 22px;
   position: relative;
   display: inline-block;
-  border-bottom: 4px solid #eeeeee;
+  border-bottom: 4px solid var(--color-orange);
   transition: 0.3s;
 }
 
@@ -1036,15 +1037,15 @@ section {
 .services .service-item .readmore {
   margin-top: 15px;
   display: inline-block;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .services .service-item:hover .icon:before {
-  background: var(--color-primary);
+  background: #f7f1f1;
 }
 
 .services .service-item:hover h3 {
-  border-color: var(--color-primary);
+  border-color: #f7f1f1;
 }
 
 /*--------------------------------------------------------------
