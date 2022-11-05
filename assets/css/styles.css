@@ -33,3 +33,28 @@
       bottom: -10px !important;
       position: relative !important;
   }
+
+  .c-container-blue .card:hover{
+    background-color: #0061b6;
+    color: white;
+    margin-top: -20px;
+    border-color: #0061b6;
+  }
+
+  .c-container-orange .card:hover{
+    background-color: #f5a59b;
+    color: white;
+    margin-top: -20px;
+    border-color: #f5a59b;
+  }
+
+  .c-container-blue .card:hover .content{
+    color: white;
+  }
+
+  .c-container-orange .card:hover .content{
+    color: #000;
+    
+  }
+
+  
