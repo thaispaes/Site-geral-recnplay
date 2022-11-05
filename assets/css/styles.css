@@ -28,3 +28,8 @@
     margin: auto;
   }
   
+
+  .pagination-horario {
+      bottom: -10px !important;
+      position: relative !important;
+  }
