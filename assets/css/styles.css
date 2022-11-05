@@ -1,9 +1,17 @@
+:root{
+  --font-primary: "Montserrat", sans-serif;
+}
+
 .footer-text {
     padding-bottom: 25px;
     position: relative;
     display: inline-block;
     transition: 0.3s;
-    border-bottom: 4px solid #f5a59b ;
+    border-bottom: 4px solid #f5a59b;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: var(--font-primary);
   }
 
 
