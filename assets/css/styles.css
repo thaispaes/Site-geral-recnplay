@@ -34,6 +34,12 @@
       position: relative !important;
   }
 
+  .section-oficina{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .c-container-blue .card:hover{
     background-color: #0061b6;
     color: white;
