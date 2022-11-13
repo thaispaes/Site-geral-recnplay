@@ -100,3 +100,13 @@
   justify-content: center;
   gap: 2rem;
 }
+
+@media screen and (max-width: 567px) {
+
+  .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
