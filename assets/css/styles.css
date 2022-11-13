@@ -36,6 +36,7 @@
 
   .section-oficina{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -63,4 +64,39 @@
     
   }
 
-  
+.card-oficina {
+  background-color: #f5f5f5;
+}
+
+.card-oficina-content .card-oficina-title{
+  background-color: #356ab1;
+  color: #fff;
+  padding: 15px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.card-oficina, .card-oficina-title {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-oficina .card-infos {
+  padding: 15px;
+}
+
+.card-infos .card-oficina-loc {
+  margin-top: 1rem;
+}
+
+.card-infos p {
+  margin-left: 0.5rem;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
