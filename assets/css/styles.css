@@ -95,6 +95,13 @@
   margin-left: 0.5rem;
 }
 
+.services .service-item{
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .15);
+}
+
+.team .member{
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .15);
+}
 .cards-wrapper {
   display: flex;
   justify-content: center;
