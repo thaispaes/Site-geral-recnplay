@@ -117,3 +117,11 @@
     align-items: center;
   }
 }
+
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before{
+  padding: 15px;
+}
+
+.testimonial-item{
+  max-height: 430px !important;
+}
