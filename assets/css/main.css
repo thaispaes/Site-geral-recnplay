@@ -1657,8 +1657,10 @@ section {
 --------------------------------------------------------------*/
 .contact .info-container {
   background-color: var(--color-primary);
-  height: 100%;
+  /* height: 100%; */
+  height: 416px;
   padding: 20px;
+  margin: 2px;
   border-radius: 10px;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
 }
