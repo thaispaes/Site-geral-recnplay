@@ -393,6 +393,12 @@
 
 .d-flex {
   display: flex !important;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 1px;
 }
 
 .d-inline-flex {
