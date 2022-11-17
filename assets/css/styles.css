@@ -117,11 +117,3 @@
     align-items: center;
   }
 }
-
-.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before{
-  padding: 15px;
-}
-
-.footer-links{
-  margin-top: 5%;
-}
