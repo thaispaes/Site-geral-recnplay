@@ -1,2 +1,7 @@
 # Site-geral-recnplay
-Site desenvolvido para a Faculdade Senac usar no Festival Rec'n'Play do Porto Digital.
+
+Desenvolvimento de um site geral para uso da Faculdade Senac-PE durante o Festival Rec'n'Play 2022 do Porto Digital.
+Foi feita a alocação dos projetos, conexão com os cursos e horário das oficinas.
+
+
+> Confira nosso projeto online: https://site-geral-senacno-recnplay.netlify.app/.
